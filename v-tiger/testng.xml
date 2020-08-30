@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
-      <class name="com.vtiger.testscripts.CreateCustomer"/>
+      <class name="com.vtiger.testscripts.MassEditLeads"/>
+      <class name="com.vtiger.testscripts.SearchLeads"/>
+      <class name="com.vtiger.testscripts.EditOpportunities"/>
+      <class name="com.vtiger.testscripts.CreateSalesOrder"/>
+      <class name="com.vtiger.testscripts.EditContact"/>
+      <class name="com.vtiger.testscripts.CreateServices"/>
+      <class name="com.vtiger.testscripts.DeleteOpportunities1"/>
+      <class name="com.vtiger.testscripts.AddEventLeads"/>
+      <class name="com.vtiger.testscripts.CreateInvoice"/>
+      <class name="com.vtiger.testscripts.CreateLeads"/>
+      <class name="com.vtiger.testscripts.DeleteServices"/>
+      <class name="com.vtiger.testscripts.ImportLeads"/>
+      <class name="com.vtiger.testscripts.DeleteLeads"/>
+      <class name="com.vtiger.testscripts.CreateContact"/>
+      <class name="com.vtiger.testscripts.CreateServiceInvoice"/>
+      <class name="com.vtiger.testscripts.ExportContacts"/>
+      <class name="com.vtiger.testscripts.CreateOpportunities"/>
+      <class name="com.vtiger.testscripts.SearchContacts"/>
+      <class name="com.vtiger.testscripts.CreatePurchaseOrder"/>
+      <class name="com.vtiger.testscripts.AddEventContacts"/>
+      <class name="com.vtiger.testscripts.ImportOpportunities"/>
+      <class name="com.vtiger.testscripts.ImportContact"/>
+      <class name="com.vtiger.testscripts.CreateDuplicateLead"/>
+      <class name="com.vtiger.testscripts.CreateDuplicateService"/>
+      <class name="com.vtiger.testscripts.SearchOpportunities"/>
+      <class name="com.vtiger.testscripts.MassEditOpportunities"/>
+      <class name="com.vtiger.testscripts.ExportServices"/>
+      <class name="com.vtiger.testscripts.CreateDuplicateContact"/>
+      <class name="com.vtiger.testscripts.ImportServices"/>
+      <class name="com.vtiger.testscripts.DeleteContact"/>
+      <class name="com.vtiger.testscripts.EditLeads"/>
+      <class name="com.vtiger.testscripts.ExportOpportunities"/>
+      <class name="com.vtiger.testscripts.EditServices"/>
+      <class name="com.vtiger.testscripts.MassEdit"/>
+      <class name="com.vtiger.testscripts.ExportLeads"/>
+      <class name="com.vtiger.testscripts.CreateDuplicateOpportunities"/>
+      <class name="com.vtiger.testscripts.MassEditSeervices"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

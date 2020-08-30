@@ -2,38 +2,50 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[hi]]>
+      <![CDATA[clicking on servicelink]]>
+    </line>
+    <line>
+      <![CDATA[Selecting service]]>
+    </line>
+    <line>
+      <![CDATA[Deleting service]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="22296" started-at="2020-08-20T07:52:53Z" finished-at="2020-08-20T07:53:15Z">
+  <suite name="Default suite" duration-ms="98031" started-at="2020-08-28T09:49:04Z" finished-at="2020-08-28T09:50:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22296" started-at="2020-08-20T07:52:53Z" finished-at="2020-08-20T07:53:15Z">
-      <class name="com.vtiger.testscripts.CreateCustomer">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.vtiger.testscripts.CreateCustomer@5f341870]" name="openbrowser" is-config="true" duration-ms="6991" started-at="2020-08-20T07:52:53Z" finished-at="2020-08-20T07:53:00Z">
+    <test name="Default test" duration-ms="98031" started-at="2020-08-28T09:49:04Z" finished-at="2020-08-28T09:50:42Z">
+      <class name="com.vtiger.testscripts.DeleteServices">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.vtiger.testscripts.DeleteServices@3abbfa04]" name="openbrowser" is-config="true" duration-ms="24714" started-at="2020-08-28T09:49:05Z" finished-at="2020-08-28T09:49:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.vtiger.testscripts.CreateCustomer@5f341870]" name="login" is-config="true" duration-ms="7540" started-at="2020-08-20T07:53:00Z" finished-at="2020-08-20T07:53:07Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtiger.testscripts.DeleteServices@3abbfa04]" name="login" is-config="true" duration-ms="30644" started-at="2020-08-28T09:49:29Z" finished-at="2020-08-28T09:50:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createcustomer()[pri:0, instance:com.vtiger.testscripts.CreateCustomer@5f341870]" name="createcustomer" duration-ms="8" started-at="2020-08-20T07:53:07Z" finished-at="2020-08-20T07:53:07Z">
+        <test-method status="PASS" signature="testCreateServices()[pri:0, instance:com.vtiger.testscripts.DeleteServices@3abbfa04]" name="testCreateServices" duration-ms="25507" started-at="2020-08-28T09:50:00Z" finished-at="2020-08-28T09:50:26Z">
           <reporter-output>
             <line>
-              <![CDATA[hi]]>
+              <![CDATA[clicking on servicelink]]>
+            </line>
+            <line>
+              <![CDATA[Selecting service]]>
+            </line>
+            <line>
+              <![CDATA[Deleting service]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createcustomer -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtiger.testscripts.CreateCustomer@5f341870]" name="logout" is-config="true" duration-ms="7606" started-at="2020-08-20T07:53:07Z" finished-at="2020-08-20T07:53:15Z">
+        </test-method> <!-- testCreateServices -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtiger.testscripts.DeleteServices@3abbfa04]" name="logout" is-config="true" duration-ms="13900" started-at="2020-08-28T09:50:26Z" finished-at="2020-08-28T09:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.vtiger.testscripts.CreateCustomer@5f341870]" name="closebrowser" is-config="true" duration-ms="131" started-at="2020-08-20T07:53:15Z" finished-at="2020-08-20T07:53:15Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.vtiger.testscripts.DeleteServices@3abbfa04]" name="closebrowser" is-config="true" duration-ms="3024" started-at="2020-08-28T09:50:39Z" finished-at="2020-08-28T09:50:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- com.vtiger.testscripts.CreateCustomer -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.vtiger.testscripts.DeleteServices -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
