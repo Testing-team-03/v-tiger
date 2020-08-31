@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="537" started-at="2020-08-31T07:33:46Z" finished-at="2020-08-31T07:33:47Z">
+  <suite name="Default suite" duration-ms="1099" started-at="2020-08-31T07:42:13Z" finished-at="2020-08-31T07:42:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="537" started-at="2020-08-31T07:33:46Z" finished-at="2020-08-31T07:33:47Z">
+    <test name="Default test" duration-ms="1099" started-at="2020-08-31T07:42:13Z" finished-at="2020-08-31T07:42:14Z">
       <class name="com.vtiger.testscripts.CreateContact4">
-        <test-method status="FAIL" signature="openbrowser()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="openbrowser" is-config="true" duration-ms="165" started-at="2020-08-31T07:33:46Z" finished-at="2020-08-31T07:33:46Z">
+        <test-method status="FAIL" signature="openbrowser()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="openbrowser" is-config="true" duration-ms="306" started-at="2020-08-31T07:42:13Z" finished-at="2020-08-31T07:42:13Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[com/google/common/collect/ImmutableMap]]>
@@ -57,11 +57,11 @@ at java.lang.ClassLoader.loadClass(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T07:33:46Z" finished-at="2020-08-31T07:33:46Z">
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="testCreateContact()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="testCreateContact" duration-ms="0" started-at="2020-08-31T07:33:46Z" finished-at="2020-08-31T07:33:46Z">
+        <test-method status="SKIP" signature="testCreateContact()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="testCreateContact" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[com/google/common/collect/ImmutableMap]]>
@@ -111,11 +111,11 @@ at java.lang.ClassLoader.loadClass(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateContact -->
-        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T07:33:46Z" finished-at="2020-08-31T07:33:46Z">
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="SKIP" signature="closebrowser()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="closebrowser" is-config="true" duration-ms="0" started-at="2020-08-31T07:33:47Z" finished-at="2020-08-31T07:33:47Z">
+        <test-method status="SKIP" signature="closebrowser()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="closebrowser" is-config="true" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
