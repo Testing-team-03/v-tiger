@@ -48,7 +48,7 @@ public class AddEventContacts4 extends BaseClass {
 		t.getEventname().sendKeys(Eventname);
 		t.getEventlocation().sendKeys(Eventlocation);
 		t.getStartdate().click();
-		driver.findElement(By.xpath("//td[.='29']")).click();
+		driver.findElement(By.xpath("//td[.='2']")).click();
 		
 		t.getMasseditSavebtn1().click();
 	}

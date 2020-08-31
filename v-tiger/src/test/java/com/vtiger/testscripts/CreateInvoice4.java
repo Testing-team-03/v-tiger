@@ -9,6 +9,8 @@ import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -19,30 +21,47 @@ public class CreateInvoice4 extends BaseClass{
 	@Test 
 	public void testCreateInvoiceOpportunities() throws EncryptedDocumentException, InvalidFormatException, IOException{
 		String Subject=f.getExcelData("Opportunities", 2, 2);
+		String Opportunityname = f.getExcelData("Opportunities", 1, 0);
 		String Billingaddress=f.getExcelData("Opportunities", 2, 3);
 		String Quantity=f.getExcelData("Opportunities", 2, 4);
 		TaskListPage t=new TaskListPage(driver);
 		
 		Reporter.log("Clicking on Opportunities link",true);
 		t.getOpportunitieslink().click();
-
-		Reporter.log("selecting Opportinity",true);
-		driver.findElement(By.xpath("(//a[@title='Opportunities'])[1]")).click();
+        t.getAddopportunitybtn().click();
 		
-		Reporter.log("creating invoice",true);
-		t.getCreateinvoiceLink().click();
-		t.getSubjecttextfeild().sendKeys(Subject);
-		driver.findElement(By.xpath("(//img[@title='Select'])[3]")).click();
+		Reporter.log("Creating Opportunity",true);
+		t.getOpportunityname().sendKeys(Opportunityname);
+		
+		WebElement listbox1=driver.findElement(By.xpath("//select[@name='related_to_type']"));
+		Select s=new Select(listbox1);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		s.selectByValue("Contacts");
+		
+		t.getSelectbtn1().click();
 		Set<String> allwh = driver.getWindowHandles();
 		Iterator<String> i = allwh.iterator();
 		String parentid = i.next();
 		String Childid = i.next();
 		driver.switchTo().window(Childid);
+		driver.findElement(By.xpath("//a[.='Sneha Shekar']")).click();
+		driver.switchTo().window(parentid);
+		t.getMasseditSavebtn1().click();
+		
+		Reporter.log("creating invoice",true);
+		t.getCreateinvoiceLink().click();
+		t.getSubjecttextfeild().sendKeys(Subject);
+		driver.findElement(By.xpath("(//img[@title='Select'])[3]")).click();
+		Set<String> allwh2 = driver.getWindowHandles();
+		Iterator<String> i2 = allwh2.iterator();
+		String parentid2 = i.next();
+		String Childid2 = i.next();
+		driver.switchTo().window(Childid2);
 		driver.findElement(By.xpath("//a[.='abc']")).click();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		Alert a=driver.switchTo().alert();
 		a.accept();
-		driver.switchTo().window(parentid);
+		driver.switchTo().window(parentid2);
 		t.getBillingadress().sendKeys(Billingaddress);
 		t.getAdressradiobtn().click();
 		t.getSearchicon().click();
