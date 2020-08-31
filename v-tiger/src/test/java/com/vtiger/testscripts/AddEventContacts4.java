@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import com.vtiger.generics.BaseClass;
 import com.vtiger.pom.TaskListPage;
-@Listeners(com.vtiger.generics.ListenerImplementation.class)
+
 public class AddEventContacts4 extends BaseClass {
 	@Test 
 	public void testAddeventContact() throws InterruptedException, EncryptedDocumentException, InvalidFormatException, IOException {
