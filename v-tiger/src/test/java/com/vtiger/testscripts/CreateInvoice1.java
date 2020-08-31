@@ -11,12 +11,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.vtiger.generics.BaseClass;
 import com.vtiger.pom.InvoicePage;
 import com.vtiger.pom.ServicesPage;
-
+@Listeners(com.vtiger.generics.ListenerImplementation.class)
 public class CreateInvoice1 extends BaseClass{
 
 	@Test

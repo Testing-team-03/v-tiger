@@ -46,7 +46,7 @@ public class CreatePurchaseOrder4 extends BaseClass{
 		String parentid = i.next();
 		String Childid = i.next();
 		driver.switchTo().window(Childid);
-		driver.findElement(By.xpath("(//a[.='abc'])[1]")).click();
+		t.getSelectOrganaisation().click();
 		driver.switchTo().window(parentid);
 		t.getBillingadress().sendKeys(Address);
 		t.getAdressradiobtn().click();

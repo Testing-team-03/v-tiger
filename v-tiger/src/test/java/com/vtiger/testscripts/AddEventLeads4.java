@@ -6,11 +6,12 @@ import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.vtiger.generics.BaseClass;
 import com.vtiger.pom.TaskListPage;
-
+@Listeners(com.vtiger.generics.ListenerImplementation.class)
 public class AddEventLeads4 extends BaseClass {
 	@Test
 	public void testAddeventLead() throws EncryptedDocumentException, InvalidFormatException, IOException {

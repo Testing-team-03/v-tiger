@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import com.vtiger.generics.BaseClass;
 import com.vtiger.pom.ServicesPage;
 
-@Listeners(com.vtiger.generics.ListenersImplementation.class)
+@Listeners(com.vtiger.generics.ListenerImplementation.class)
 
 public class DeleteService extends BaseClass {
 @Test

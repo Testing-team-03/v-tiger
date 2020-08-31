@@ -54,10 +54,10 @@ public class CreateInvoice4 extends BaseClass{
 		driver.findElement(By.xpath("(//img[@title='Select'])[3]")).click();
 		Set<String> allwh2 = driver.getWindowHandles();
 		Iterator<String> i2 = allwh2.iterator();
-		String parentid2 = i.next();
-		String Childid2 = i.next();
+		String parentid2 = i2.next();
+		String Childid2 = i2.next();
 		driver.switchTo().window(Childid2);
-		driver.findElement(By.xpath("//a[.='abc']")).click();
+		t.getSelectOrganaisation().click();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		Alert a=driver.switchTo().alert();
 		a.accept();
@@ -70,7 +70,7 @@ public class CreateInvoice4 extends BaseClass{
 		String parentid1 = i1.next();
 		String Childid1 = i1.next();
 		driver.switchTo().window(Childid1);
-		driver.findElement(By.xpath("//a[.='laptop']")).click();
+		t.getSelectProduct().click();
 		driver.switchTo().window(parentid1);
 		t.getQuantity().sendKeys(Quantity);
 		t.getMasseditSavebtn1().click();

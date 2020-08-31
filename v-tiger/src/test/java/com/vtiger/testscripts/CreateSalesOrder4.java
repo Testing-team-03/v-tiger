@@ -46,7 +46,7 @@ public class CreateSalesOrder4 extends BaseClass{
 		String parentid = i.next();
 		String Childid = i.next();
 		driver.switchTo().window(Childid);
-		driver.findElement(By.xpath("//a[.='abc']")).click();
+		t.getSelectOrganaisation().click();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		Alert a2=driver.switchTo().alert();
 		a2.accept();

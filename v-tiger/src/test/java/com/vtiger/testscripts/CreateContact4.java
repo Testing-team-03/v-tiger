@@ -3,6 +3,7 @@ package com.vtiger.testscripts;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -15,7 +16,7 @@ import org.openqa.selenium.By;
 
 import com.vtiger.generics.BaseClass;
 import com.vtiger.pom.TaskListPage;
-
+@Listeners(com.vtiger.generics.ListenerImplementation.class)
 public class CreateContact4 extends BaseClass{
 	@Test 
 	public void testCreateContact() throws InterruptedException, EncryptedDocumentException, InvalidFormatException, IOException {
@@ -50,7 +51,7 @@ public class CreateContact4 extends BaseClass{
 		String parentid = i.next();
 		String Childid = i.next();
 		driver.switchTo().window(Childid);
-		driver.findElement(By.xpath("//a[.='abc']")).click();
+		t.getSelectOrganaisation().click();
 		driver.switchTo().window(parentid);
 		
 		WebElement listbox2=driver.findElement(By.xpath("//select[@name='leadsource']"));

@@ -10,11 +10,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.vtiger.generics.BaseClass;
 import com.vtiger.pom.TaskListPage;
-
+@Listeners(com.vtiger.generics.ListenerImplementation.class)
 public class CreateDuplicateContact4 extends BaseClass {
 	@Test 
 	public void testCreateDuplicateContact() throws InterruptedException, EncryptedDocumentException, InvalidFormatException, IOException {

@@ -21,8 +21,10 @@ public void testCreateLead() throws EncryptedDocumentException, InvalidFormatExc
 	TaskListPage t=new TaskListPage(driver);
 	Reporter.log("clicking on leadlink",true);
 	t.getLeadsLink().click();
+	
 	Reporter.log("clickin on addnew button",true);
 	t.getPlusbtn().click();
+	
 	Reporter.log("creating lead",true);
 	t.getFirstNametxtfeild().sendKeys(FirstName);
 	t.getLastNametxtfeild().sendKeys(LastName);
