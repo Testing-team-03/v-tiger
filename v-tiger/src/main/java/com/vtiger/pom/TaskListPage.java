@@ -18,7 +18,7 @@ public class TaskListPage {
 	@FindBy(xpath="//input[@name='firstname']")
 	private WebElement FirstNametxtfeild;
 
-	@FindBy(css="a[href='javascript:window.close();']")
+	@FindBy(css="(//a[@href='javascript:window.close();'])[1]")
 	private WebElement SelectOrganaisation;
 
 	@FindBy(xpath="//input[@name='lastname']")
@@ -58,10 +58,10 @@ public class TaskListPage {
 	@FindBy(xpath="//input[@name='import_file']")
 	private WebElement Choosefile;
 	
-	@FindBy(css="a[href='javascript:window.close();']")
+	@FindBy(css="(//a[@href='javascript:window.close();'])[1]")
 	private WebElement SelectContact;
 	
-	@FindBy(css="a[href='javascript:window.close();']")
+	@FindBy(css="(//a[@href='javascript:window.close();'])[1]")
 	private WebElement SelectProduct;
 	
 	@FindBy(xpath="//input[@name='next']")
