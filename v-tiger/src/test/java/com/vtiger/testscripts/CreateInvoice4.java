@@ -44,7 +44,7 @@ public class CreateInvoice4 extends BaseClass{
 		String parentid = i.next();
 		String Childid = i.next();
 		driver.switchTo().window(Childid);
-		driver.findElement(By.xpath("//a[.='Sneha Shekar']")).click();
+		t.getSelectContact().click();
 		driver.switchTo().window(parentid);
 		t.getMasseditSavebtn1().click();
 		

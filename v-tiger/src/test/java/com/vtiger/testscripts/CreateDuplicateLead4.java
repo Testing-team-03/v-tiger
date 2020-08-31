@@ -20,15 +20,19 @@ public class CreateDuplicateLead4 extends BaseClass {
 		TaskListPage t=new TaskListPage(driver);
 		Reporter.log("clicking on leadlink",true);
 		t.getLeadsLink().click();
+		
 		Reporter.log("clickin on addnew button",true);
 		t.getPlusbtn().click();
+		
 		Reporter.log("creating lead",true);
 		t.getFirstNametxtfeild().sendKeys(FirstName);
 		t.getLastNametxtfeild().sendKeys(LastName);
 		t.getCompanyName().sendKeys(Company);
 		t.getCreatenewsavebtn().click();
+		
 		Reporter.log("clicking on duplicate button",true);
 		t.getDuplicatebtn().click();
+		
 		Reporter.log("Creating duplicate lead",true);
 		t.getFirstNametxtfeild().sendKeys(FirstName);
 		t.getLastNametxtfeild().sendKeys(LastName);
