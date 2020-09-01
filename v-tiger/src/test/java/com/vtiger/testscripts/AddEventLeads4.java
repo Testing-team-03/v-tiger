@@ -36,7 +36,8 @@ public class AddEventLeads4 extends BaseClass {
 		t.getEventname().sendKeys(Eventname);
 		t.getEventlocation().sendKeys(Eventlocation);
 		t.getStartdate().click();
-		driver.findElement(By.xpath("//td[.='2']")).click();
+		driver.findElement(By.xpath("(//td[@class='button nav'])[3]")).click();;
+		driver.findElement(By.xpath("(//td[@class='day'])[2]")).click();
 		t.getMasseditSavebtn1().click();
 }
 }

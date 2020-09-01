@@ -1,125 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Clicking on Contacts link]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on add new button]]>
+    </line>
+    <line>
+      <![CDATA[Entering Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Entering Lastname]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save btn]]>
+    </line>
+    <line>
+      <![CDATA[clicking on addevent link]]>
+    </line>
+    <line>
+      <![CDATA[creating an event]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1099" started-at="2020-08-31T07:42:13Z" finished-at="2020-08-31T07:42:14Z">
+  <suite name="Default suite" duration-ms="134342" started-at="2020-08-31T10:22:34Z" finished-at="2020-08-31T10:24:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1099" started-at="2020-08-31T07:42:13Z" finished-at="2020-08-31T07:42:14Z">
-      <class name="com.vtiger.testscripts.CreateContact4">
-        <test-method status="FAIL" signature="openbrowser()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="openbrowser" is-config="true" duration-ms="306" started-at="2020-08-31T07:42:13Z" finished-at="2020-08-31T07:42:13Z">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[com/google/common/collect/ImmutableMap]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
-at org.openqa.selenium.remote.service.DriverService$Builder.<init>(DriverService.java:259)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.<init>(ChromeDriverService.java:101)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.vtiger.generics.BaseClass.openbrowser(BaseClass.java:33)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableMap
-at java.net.URLClassLoader.findClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+    <test name="Default test" duration-ms="134342" started-at="2020-08-31T10:22:34Z" finished-at="2020-08-31T10:24:48Z">
+      <class name="com.vtiger.testscripts.AddEventContacts4">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.vtiger.testscripts.AddEventContacts4@6500df86]" name="openbrowser" is-config="true" duration-ms="11792" started-at="2020-08-31T10:22:34Z" finished-at="2020-08-31T10:22:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="login" is-config="true" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.vtiger.testscripts.AddEventContacts4@6500df86]" name="login" is-config="true" duration-ms="14094" started-at="2020-08-31T10:22:46Z" finished-at="2020-08-31T10:23:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="testCreateContact()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="testCreateContact" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[com/google/common/collect/ImmutableMap]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
-at org.openqa.selenium.remote.service.DriverService$Builder.<init>(DriverService.java:259)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.<init>(ChromeDriverService.java:101)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.vtiger.generics.BaseClass.openbrowser(BaseClass.java:33)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableMap
-at java.net.URLClassLoader.findClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-at java.lang.ClassLoader.loadClass(Unknown Source)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method status="PASS" signature="testAddeventContact()[pri:0, instance:com.vtiger.testscripts.AddEventContacts4@6500df86]" name="testAddeventContact" duration-ms="98150" started-at="2020-08-31T10:23:00Z" finished-at="2020-08-31T10:24:38Z">
           <reporter-output>
+            <line>
+              <![CDATA[Clicking on Contacts link]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on add new button]]>
+            </line>
+            <line>
+              <![CDATA[Entering Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Entering Lastname]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save btn]]>
+            </line>
+            <line>
+              <![CDATA[clicking on addevent link]]>
+            </line>
+            <line>
+              <![CDATA[creating an event]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testCreateContact -->
-        <test-method status="SKIP" signature="logout()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
+        </test-method> <!-- testAddeventContact -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.vtiger.testscripts.AddEventContacts4@6500df86]" name="logout" is-config="true" duration-ms="6230" started-at="2020-08-31T10:24:38Z" finished-at="2020-08-31T10:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="SKIP" signature="closebrowser()[pri:0, instance:com.vtiger.testscripts.CreateContact4@6a4f787b]" name="closebrowser" is-config="true" duration-ms="0" started-at="2020-08-31T07:42:14Z" finished-at="2020-08-31T07:42:14Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.vtiger.testscripts.AddEventContacts4@6500df86]" name="closebrowser" is-config="true" duration-ms="3888" started-at="2020-08-31T10:24:44Z" finished-at="2020-08-31T10:24:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- com.vtiger.testscripts.CreateContact4 -->
+      </class> <!-- com.vtiger.testscripts.AddEventContacts4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

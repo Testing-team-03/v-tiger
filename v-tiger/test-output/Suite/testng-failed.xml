@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.testscripts.CreateDuplicateLead4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="testCreateduplicateLead"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateDuplicateLead4 -->
+      <class name="com.vtiger.testscripts.CreateService2">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createService"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateService2 -->
+      <class name="com.vtiger.testscripts.CreateInvoice1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createInvoice"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateInvoice1 -->
+      <class name="com.vtiger.testscripts.EditLead">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="editLead"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditLead -->
+      <class name="com.vtiger.testscripts.CreateOpportunities4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateOpportunities"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateOpportunities4 -->
+      <class name="com.vtiger.testscripts.CreateServices4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testCreateServices"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateServices4 -->
+      <class name="com.vtiger.testscripts.EditContact4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testEditContact"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditContact4 -->
+      <class name="com.vtiger.testscripts.SearchServiceCate">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="searchService"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchServiceCate -->
+      <class name="com.vtiger.testscripts.CreatePurchaseOrder1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="createPurchaseOrder"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreatePurchaseOrder1 -->
+      <class name="com.vtiger.testscripts.CreateSalesOrder1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="createPurchaseOrder"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateSalesOrder1 -->
+      <class name="com.vtiger.testscripts.ImportContact4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testimportContact"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.ImportContact4 -->
+      <class name="com.vtiger.testscripts.ExportOpportunities4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateOpportunities"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.ExportOpportunities4 -->
+      <class name="com.vtiger.testscripts.CreateDuplicateService4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testCreateServices"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateDuplicateService4 -->
+      <class name="com.vtiger.testscripts.SearchContacts4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateContact"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchContacts4 -->
+      <class name="com.vtiger.testscripts.CreateDuplicateContact4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateDuplicateContact"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateDuplicateContact4 -->
+      <class name="com.vtiger.testscripts.DeleteContact4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testDeleteContact"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.DeleteContact4 -->
+      <class name="com.vtiger.testscripts.CreateSalesOrder">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createPurchaseOrder"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateSalesOrder -->
+      <class name="com.vtiger.testscripts.CreateService1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createService"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateService1 -->
+      <class name="com.vtiger.testscripts.SearchServiceName">
+        <methods>
+          <include name="searchService"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchServiceName -->
+      <class name="com.vtiger.testscripts.EditContact">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="editContact"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditContact -->
+      <class name="com.vtiger.testscripts.MassEditLeads4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testMassEditContact"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.MassEditLeads4 -->
+      <class name="com.vtiger.testscripts.CreatePurchaseOrder2">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="createPurchaseOrder"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreatePurchaseOrder2 -->
+      <class name="com.vtiger.testscripts.CreatePurchaseOrder4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testPurchaseOrder"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreatePurchaseOrder4 -->
+      <class name="com.vtiger.testscripts.SearchServiceNum">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="searchService"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchServiceNum -->
+      <class name="com.vtiger.testscripts.EditService">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="editService"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditService -->
+      <class name="com.vtiger.testscripts.AddEventLeads4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testAddeventLead"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.AddEventLeads4 -->
+      <class name="com.vtiger.testscripts.SelectContact">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="selectContact"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SelectContact -->
+      <class name="com.vtiger.testscripts.SelectLeads">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="selectLeads"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SelectLeads -->
+      <class name="com.vtiger.testscripts.CreateServiceInvoice4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateServices"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateServiceInvoice4 -->
+      <class name="com.vtiger.testscripts.CreateLeads4">
+        <methods>
+          <include name="testCreateLead"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateLeads4 -->
+      <class name="com.vtiger.testscripts.DeleteLeads4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="testDeleteleadst"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.DeleteLeads4 -->
+      <class name="com.vtiger.testscripts.SearchServiceCate1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="searchService"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchServiceCate1 -->
+      <class name="com.vtiger.testscripts.EditOpportunities4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testEditOpportunities"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditOpportunities4 -->
+      <class name="com.vtiger.testscripts.SearchLeads4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateLead"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchLeads4 -->
+      <class name="com.vtiger.testscripts.EditOpportunities">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="selectOpportunities"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditOpportunities -->
+      <class name="com.vtiger.testscripts.CreatePurchaseOrder">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createPurchaseOrder"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreatePurchaseOrder -->
+      <class name="com.vtiger.testscripts.CreateDuplicateOpportunities4">
+        <methods>
+          <include name="testCreateDuplicateOpportunities"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateDuplicateOpportunities4 -->
+      <class name="com.vtiger.testscripts.SelectOpportunities">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="selectOpportunities"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SelectOpportunities -->
+      <class name="com.vtiger.testscripts.DeleteLead">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="deleteLead"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.DeleteLead -->
+      <class name="com.vtiger.testscripts.EditLeads4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="testEditLeads"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditLeads4 -->
+      <class name="com.vtiger.testscripts.EditServices4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testCreateServices"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditServices4 -->
+      <class name="com.vtiger.testscripts.CreateContact4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testCreateContact"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateContact4 -->
+      <class name="com.vtiger.testscripts.CreateSalesOrder2">
+        <methods>
+          <include name="createPurchaseOrder"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateSalesOrder2 -->
+      <class name="com.vtiger.testscripts.CreateInvoice2">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createInvoice"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateInvoice2 -->
+      <class name="com.vtiger.testscripts.DeleteServices4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="testCreateServices"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.DeleteServices4 -->
+      <class name="com.vtiger.testscripts.CreateQuote">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createQuote"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateQuote -->
+      <class name="com.vtiger.testscripts.SelectOrganization">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="selectorganization"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SelectOrganization -->
+      <class name="com.vtiger.testscripts.AddEventContacts4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testAddeventContact"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.AddEventContacts4 -->
+      <class name="com.vtiger.testscripts.CreateService">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="createService"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateService -->
+      <class name="com.vtiger.testscripts.EditOrganization">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="editorganization"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditOrganization -->
+      <class name="com.vtiger.testscripts.SearchOpportunities4">
+        <methods>
+          <include name="testSearchOpportunities"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchOpportunities4 -->
+      <class name="com.vtiger.testscripts.CreateQuote1">
+        <methods>
+          <include name="createInvoice"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateQuote1 -->
+      <class name="com.vtiger.testscripts.MassEditSeervices4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testCreateServices"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.MassEditSeervices4 -->
+      <class name="com.vtiger.testscripts.ImportServices4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="testCreateServices"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.ImportServices4 -->
+      <class name="com.vtiger.testscripts.ExportLeads4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testExportLead"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.ExportLeads4 -->
+      <class name="com.vtiger.testscripts.MassEdit4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testMassedit"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.MassEdit4 -->
+      <class name="com.vtiger.testscripts.DeleteOpportunities5">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="testDeleteOpportunities"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.DeleteOpportunities5 -->
+      <class name="com.vtiger.testscripts.CreateInvoice">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="createInvoice"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateInvoice -->
+      <class name="com.vtiger.testscripts.SearchServiceNum1">
+        <methods>
+          <include name="searchService"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchServiceNum1 -->
+      <class name="com.vtiger.testscripts.DuplicateService">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="dupilcate"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.DuplicateService -->
+      <class name="com.vtiger.testscripts.CreateQuote2">
+        <methods>
+          <include name="createQuote2"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateQuote2 -->
+      <class name="com.vtiger.testscripts.ExportContacts4">
+        <methods>
+          <include name="testExportContact"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.ExportContacts4 -->
+      <class name="com.vtiger.testscripts.CreateSalesOrder4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="testCreateSalesorder"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateSalesOrder4 -->
+      <class name="com.vtiger.testscripts.DeleteService">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="deleteservice"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.DeleteService -->
+      <class name="com.vtiger.testscripts.SearchServiceName1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="searchService"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.SearchServiceName1 -->
+      <class name="com.vtiger.testscripts.ExportServices4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testCreateServices"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.ExportServices4 -->
+      <class name="com.vtiger.testscripts.EditService1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="editservice"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.EditService1 -->
+      <class name="com.vtiger.testscripts.Services">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="services"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.Services -->
+      <class name="com.vtiger.testscripts.MassEditOpportunities4">
+        <methods>
+          <include name="testMassEditOpportunities"/>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.MassEditOpportunities4 -->
+      <class name="com.vtiger.testscripts.CreateInvoice4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="openbrowser"/>
+          <include name="testCreateInvoiceOpportunities"/>
+        </methods>
+      </class> <!-- com.vtiger.testscripts.CreateInvoice4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

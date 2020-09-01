@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.testscripts.CreateContact4">
+      <class name="com.vtiger.testscripts.AddEventContacts4">
         <methods>
           <include name="closebrowser"/>
           <include name="login"/>
           <include name="logout"/>
           <include name="openbrowser"/>
-          <include name="testCreateContact"/>
+          <include name="testAddeventContact"/>
         </methods>
-      </class> <!-- com.vtiger.testscripts.CreateContact4 -->
+      </class> <!-- com.vtiger.testscripts.AddEventContacts4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
